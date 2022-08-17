@@ -18,3 +18,12 @@ for count in range(5):
     elapsed = time.time() - start
     print("%12d%16.3f" % (problemSize, elapsed))
     problemSize *= 2
+    
+    
+"""
+    The idea of the algorithm is quite simple, perform some work function (i.e., counting up and down from 1 to 2 back to 1) inside a nested loop
+    a given number of times (the problem size of 1000000). Once this is done calcualted the time elapsed as the difference between the elapsed time
+    and the start time. 
+    
+    Double the problem size and repeat the process 5 more times
+"""
